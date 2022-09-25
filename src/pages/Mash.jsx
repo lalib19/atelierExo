@@ -16,11 +16,11 @@ export default function Mash() {
   }, []);
 
   return (
-    <div className="Container">
-      <a className="Button" href="/leaderboard">
+    <div className="container">
+      <a className="button" href="/leaderboard">
         Leaderboard
       </a>
-      <div className="Gallery">
+      <div className="gallery">
         <ul>
           {cats.map((cat) => (
             <img src={cat.url} alt="Cat" height={50} width={50} />
