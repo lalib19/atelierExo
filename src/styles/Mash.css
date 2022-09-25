@@ -1,0 +1,28 @@
+.Container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+.Gallery {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  background-color: salmon;
+}
+
+.Button {
+  text-align: center;
+  color: black;
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.text {
+  color: green;
+}
