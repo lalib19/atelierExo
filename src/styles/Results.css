@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  width: 50vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.catImage {
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.combo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 198, 198);
+  margin: 5px;
+  padding: 3px 3px 15px 3px;
+  border-radius: 5px;
+
+}
