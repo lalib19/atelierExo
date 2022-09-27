@@ -16,7 +16,7 @@ export default function Arena() {
         axios
           .get("https://latelier.co/data/cats.json")
           .then((res) => {
-            setCats(res.data.images.slice(90));
+            setCats(res.data.images);
             setIsLoading(false);
           })
           .catch((err) => console.log(err));
