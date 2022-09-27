@@ -42,7 +42,8 @@ export default function Arena() {
     <div className="container">
       {cats && cats.length > 1 ? (
         <div className="inner">
-          <h1>Click and eliminate a cat</h1>
+          <h1>Vote for your favorite cat !</h1>
+          <h2>Click and eliminate a cat</h2>
           <div className="showdown">
             <div>
               <img
